@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  @font-face {
+    font-family: 'Oswald';
+    font-weight: 700;
+    src: url(../fonts/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZogUE.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'JetBrains Mono';
+    font-weight: 400;
+    src: url(../fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.ttf) format('truetype');
+  }
+  * { margin: 0; padding: 0; }
+  body {
+    width: 1200px;
+    height: 630px;
+    background: #0d1117;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+  }
+  .wordmark {
+    position: absolute;
+    left: 90px;
+    top: 72px;
+    line-height: 1;
+  }
+  .stop {
+    color: #f4f7fa;
+    font-size: 150px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+  .the {
+    color: #8b949e;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.35em;
+    margin: 18px 0 10px 8px;
+  }
+  .flop-wrap {
+    position: relative;
+    margin-top: 8px;
+    margin-left: 170px;
+    transform: rotate(-8deg);
+    transform-origin: left center;
+    display: inline-block;
+  }
+  .flop {
+    color: #fdd835;
+    font-size: 170px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    display: inline-block;
+  }
+  .speed {
+    position: absolute;
+    left: -150px;
+    background: #fdd835;
+    height: 14px;
+    border-radius: 7px;
+  }
+  .speed.s1 { top: 28px; width: 120px; }
+  .speed.s2 { top: 68px; width: 88px; left: -118px; }
+  .speed.s3 { top: 108px; width: 120px; }
+  .figure {
+    position: absolute;
+    right: 70px;
+    bottom: 90px;
+  }
+  .domain {
+    position: absolute;
+    left: 90px;
+    bottom: 46px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 30px;
+    color: #8b949e;
+    letter-spacing: 0.06em;
+  }
+  .rule {
+    position: absolute;
+    left: 90px;
+    right: 90px;
+    bottom: 110px;
+    height: 6px;
+    border-radius: 3px;
+    background: #30363d;
+  }
+</style>
+</head>
+<body>
+  <div class="wordmark">
+    <div class="stop">STOP</div>
+    <div class="the">THE</div>
+    <div class="flop-wrap">
+      <span class="speed s1"></span>
+      <span class="speed s2"></span>
+      <span class="speed s3"></span>
+      <span class="flop">FLOP</span>
+    </div>
+  </div>
+
+  <svg class="figure" width="340" height="340" viewBox="0 0 240 240">
+    <g stroke="#fdd835" stroke-linecap="round" fill="none">
+      <g stroke-width="11">
+        <line x1="28" y1="118" x2="18" y2="96"/>
+        <line x1="52" y1="110" x2="52" y2="86"/>
+        <line x1="76" y1="118" x2="86" y2="96"/>
+      </g>
+      <circle cx="52" cy="168" r="24" fill="#fdd835" stroke="none"/>
+      <path d="M84 176 L152 182" stroke-width="17"/>
+      <path d="M104 178 L138 148" stroke-width="14"/>
+      <path d="M152 182 L188 150 L218 184" stroke-width="15"/>
+      <path d="M152 184 L214 198" stroke-width="15"/>
+    </g>
+  </svg>
+
+  <div class="rule"></div>
+  <div class="domain">stopflopping.org</div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0d1117">
+<link rel="apple-touch-icon" href="/og-image.png">
+<title>Privacy Policy | Stop the Flop</title>
+<meta name="description" content="Privacy policy for stopflopping.org. We use Vercel Analytics for anonymous traffic data. No cookies. No personal data collected.">
+<meta name="robots" content="noindex, follow">
+
+<link rel="canonical" href="https://stopflopping.org/privacy/">
+
+<link rel="stylesheet" href="/fonts.css">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a href="#privacy" class="skip-to-content">Skip to content</a>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<nav id="navbar" class="visible">
+  <a href="/" class="logo"><svg width="22" height="22" viewBox="0 0 240 240" aria-hidden="true" style="vertical-align:-4px;margin-right:0.45rem;"><g stroke="#fdd835" stroke-linecap="round" fill="none"><line x1="28" y1="118" x2="18" y2="96" stroke-width="14"/><line x1="52" y1="110" x2="52" y2="86" stroke-width="14"/><line x1="76" y1="118" x2="86" y2="96" stroke-width="14"/><circle cx="52" cy="168" r="26" fill="#fdd835" stroke="none"/><path d="M84 176 L152 182" stroke-width="20"/><path d="M104 178 L138 148" stroke-width="17"/><path d="M152 182 L188 150 L218 184" stroke-width="18"/><path d="M152 184 L214 198" stroke-width="18"/></g></svg>Stop the Flop</a>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/data/">Data</a></li>
+    <li><a href="/hall-of-shame/">Hall of Shame</a></li>
+    <li><a href="/comparison/">Comparison</a></li>
+    <li><a href="/why-nothing-changes/">Why Nothing Changes</a></li>
+    <li><a href="/the-fix/">The Fix</a></li>
+    <li><a href="/sources/">Sources</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+
+<a href="#" class="back-to-top" id="backToTop">↑</a>
+
+<div class="breadcrumb">
+  <div class="container"><a href="/">Home</a> &rsaquo; Privacy Policy</div>
+</div>
+
+<section id="privacy">
+  <div class="container">
+    <div class="reveal">
+      <h1 class="section-title">Privacy Policy</h1>
+    </div>
+
+    <div class="reveal" style="max-width:800px;">
+      <p><strong>Last updated:</strong> July 17, 2026</p>
+
+      <h3 style="margin-top:2rem;">What We Collect</h3>
+      <p>Almost nothing. This site uses <a href="https://vercel.com/docs/analytics" style="color:var(--accent)">Vercel Web Analytics</a>, which collects anonymous, aggregated traffic data. This includes:</p>
+      <ul style="margin:1rem 0 1rem 1.5rem;">
+        <li>Page views</li>
+        <li>Referrer URLs</li>
+        <li>Country (from IP, not stored)</li>
+        <li>Browser and device type</li>
+      </ul>
+
+      <h3 style="margin-top:2rem;">What We Don't Collect</h3>
+      <ul style="margin:1rem 0 1rem 1.5rem;">
+        <li>No cookies</li>
+        <li>No personal information</li>
+        <li>No email addresses</li>
+        <li>No tracking across sites</li>
+        <li>No advertising data</li>
+      </ul>
+
+      <h3 style="margin-top:2rem;">Third-Party Services</h3>
+      <p><strong>Vercel Analytics</strong> — Privacy-focused web analytics. No cookies, no personal data. <a href="https://vercel.com/docs/analytics/privacy-policy" style="color:var(--accent)">Vercel's privacy policy</a>.</p>
+      <p><strong>Spotify</strong> — The embedded podcast player on the home page loads from Spotify. <a href="https://www.spotify.com/legal/privacy-policy/" style="color:var(--accent)">Spotify's privacy policy</a>.</p>
+      <p>Fonts are self-hosted; no font CDN is contacted.</p>
+
+      <h3 style="margin-top:2rem;">Contact</h3>
+      <p>Questions? Open an issue on <a href="https://github.com/evaclaw10bot-dot/stop-the-flop" style="color:var(--accent)">GitHub</a>.</p>
+    </div>
+
+    <div style="text-align: center; margin-top: 4rem;">
+      <a href="/" class="next-link">← Back to Home</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Built with ⚽ and a functioning sense of shame.</p>
+  <p style="margin-top:0.5rem;">This site has no affiliation with FIFA, IFAB, or any football governing body. It's just correct.</p>
+  <p style="margin-top:0.5rem;">Sister campaign: <a href="https://stopstoppagetime.com" style="color:var(--gold);text-decoration:none;">stopstoppagetime.com</a> — the clock is the other half of the problem.</p>
+  <p style="margin-top:0.5rem;font-size:0.85rem;"><a href="/privacy/" style="color:var(--muted);text-decoration:none;">Privacy Policy</a></p>
+</footer>
+
+<script>
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.15 });
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+const progressBar = document.getElementById('progressBar');
+const backToTop = document.getElementById('backToTop');
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  progressBar.style.width = (scrollY / docHeight) * 100 + '%';
+  backToTop.classList.toggle('visible', scrollY > 400);
+});
+</script>
+
+<script src="/term-switcher.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+
+<script>
+(function() {
+  var btn = document.getElementById('hamburger');
+  if (!btn) return;
+  var nav = btn.closest('nav');
+  btn.addEventListener('click', function() {
+    var open = nav.classList.toggle('menu-open');
+    btn.classList.toggle('active', open);
+    btn.setAttribute('aria-expanded', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+  nav.querySelectorAll('ul a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      nav.classList.remove('menu-open');
+      btn.classList.remove('active');
+      btn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    });
+  });
+})();
+</script>
+</body>
+</html>

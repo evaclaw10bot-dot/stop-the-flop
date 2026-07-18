@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Page Not Found | Stop the Flop</title>
+<meta name="description" content="Nobody touched this page. It went down anyway. Head back to the home page.">
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="stylesheet" href="/fonts.css">
+<link rel="stylesheet" href="/styles.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+<style>
+  .error-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--dark) 0%, #112211 50%, var(--dark) 100%);
+  }
+
+  .error-logo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--gold);
+    text-decoration: none;
+    margin-bottom: 3rem;
+    display: inline-block;
+    transition: opacity 0.2s;
+  }
+
+  .error-logo:hover {
+    opacity: 0.8;
+  }
+
+  .error-number {
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(6rem, 20vw, 12rem);
+    font-weight: 700;
+    line-height: 1;
+    color: var(--gold);
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 60px rgba(253, 216, 53, 0.2);
+    margin-bottom: 1rem;
+  }
+
+  .error-whistle {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  .error-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(1.4rem, 4vw, 2.2rem);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--text);
+    margin-bottom: 1rem;
+  }
+
+  .error-subtext {
+    font-size: 1.1rem;
+    color: var(--muted);
+    max-width: 480px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.7;
+  }
+
+  .error-subtext em {
+    color: var(--accent);
+    font-style: normal;
+  }
+
+  .error-footer {
+    margin-top: 3rem;
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="error-page">
+
+  <a href="/" class="error-logo"><svg width="26" height="26" viewBox="0 0 240 240" aria-hidden="true" style="vertical-align:-5px;margin-right:0.45rem;"><g stroke="#fdd835" stroke-linecap="round" fill="none"><line x1="28" y1="118" x2="18" y2="96" stroke-width="14"/><line x1="52" y1="110" x2="52" y2="86" stroke-width="14"/><line x1="76" y1="118" x2="86" y2="96" stroke-width="14"/><circle cx="52" cy="168" r="26" fill="#fdd835" stroke="none"/><path d="M84 176 L152 182" stroke-width="20"/><path d="M104 178 L138 148" stroke-width="17"/><path d="M152 182 L188 150 L218 184" stroke-width="18"/><path d="M152 184 L214 198" stroke-width="18"/></g></svg>Stop the Flop</a>
+
+  <span class="error-whistle">📣</span>
+
+  <div class="error-number">404</div>
+
+  <h1 class="error-heading">This Page Took a Dive</h1>
+
+  <p class="error-subtext">
+    Nobody touched this page, but it's rolling around like it took a stray elbow.
+    There's no VAR review coming.
+    The <em>real</em> content is back on the home page.
+  </p>
+
+  <a href="/" class="btn">Back to Home</a>
+
+  <p class="error-footer">
+    Lost? Try the <a href="/" style="color: var(--accent); text-decoration: none;">home page</a> or check the URL for a typo.
+  </p>
+
+</div>
+
+<script src="/term-switcher.js"></script>
+</body>
+</html>

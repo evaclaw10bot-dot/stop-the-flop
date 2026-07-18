@@ -1,0 +1,23 @@
+# Stop the Flop
+
+> Stop the Flop is a data-driven campaign against diving, flopping, and injury simulation in football (soccer). It argues that simulation is measurable, punishable, and fixable — through retroactive video review, escalating bans, stricter treatment rules, and a stopped clock that removes the incentive to waste time on the ground.
+
+## Key facts
+- Peer-reviewed research (Rosenbaum et al., International Journal of Sports Medicine, 2010) counted 5.63 apparent injuries per team per match in international men's football; only 0.41 per team per match (7.2%) were definite injuries.
+- Apparent injuries cause more than 7 minutes of stopped play per match, yet only ~17% of treated players actually leave the game (Dönmez et al. 2022).
+- In a study of 60 televised top-league matches, referees rewarded about a third of dives with a free kick or penalty and punished exactly zero of the 169 dives observed (David et al., PLoS ONE, 2011).
+- Even elite referees only distinguish dives from fouls with ~72% accuracy in ambiguous situations (Renden et al. 2014).
+- Teams that simulated more did not win more (Rosenbaum et al.).
+- Other sports punish embellishment: the NBA fines flopping on an escalating ladder, the NHL fines embellishment (Rule 64), and England's FA issues retroactive two-match bans for "Successful Deception of a Match Official" (since 2017).
+- The one time football imposed a truly severe punishment for a faked injury — Roberto Rojas's lifetime ban in 1989 — the behavior ended permanently.
+- At World Cup 2026, expanded VAR scope led to Breel Embolo's red card for simulation in the quarterfinal, showing enforcement works when rules allow it.
+- Sister campaign: https://stopstoppagetime.com — a stopped clock removes the time-wasting payoff that makes flopping profitable.
+
+## Pages
+- [Home](https://stopflopping.org): Overview and the core argument.
+- [The Data](https://stopflopping.org/data/): Injury-simulation research, quantified.
+- [Hall of Shame](https://stopflopping.org/hall-of-shame/): The most infamous dives in football history.
+- [Comparison](https://stopflopping.org/comparison/): How other sports punish flopping — and football doesn't.
+- [Why Nothing Changes](https://stopflopping.org/why-nothing-changes/): Referees, VAR's blind spot, and the incentives that protect diving.
+- [The Fix](https://stopflopping.org/the-fix/): Retroactive review, escalating bans, and the stopped clock.
+- [Sources](https://stopflopping.org/sources/): Full citations and references.

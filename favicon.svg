@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <g stroke="#fdd835" stroke-linecap="round" fill="none">
+    <!-- impact marks above head -->
+    <g stroke-width="11">
+      <line x1="28" y1="118" x2="18" y2="96"/>
+      <line x1="52" y1="110" x2="52" y2="86"/>
+      <line x1="76" y1="118" x2="86" y2="96"/>
+    </g>
+    <!-- fallen figure -->
+    <circle cx="52" cy="168" r="24" fill="#fdd835" stroke="none"/>
+    <path d="M84 176 L152 182" stroke-width="17"/>
+    <path d="M104 178 L138 148" stroke-width="14"/>
+    <path d="M152 182 L188 150 L218 184" stroke-width="15"/>
+    <path d="M152 184 L214 198" stroke-width="15"/>
+  </g>
+</svg>
