@@ -334,6 +334,74 @@
 
     <p class="reveal">One last pillar, because it demolishes the favorite excuse — "you can never really know." <a href="https://link.springer.com/article/10.1007/s10919-009-0075-0" style="color:var(--accent)">Morris &amp; Lewis (2010)</a>, in the <em data-no-swap>Journal of Nonverbal Behavior</em>, showed that deceptive falls carry distinct, observable physical signatures. Divers move in ways genuinely fouled players don't, and the paper catalogs the tells. Observers reliably identified deceptive falls; in the authors' words, deceptive intentions <span data-no-swap>"are to a degree manifest in behavior and are observable."</span> A dive is not a matter of opinion. It's a matter of body mechanics — visible in real time to trained observers, and trivially visible on replay. Which raises an obvious question: if science can spot a dive, <a href="/why-nothing-changes/">why can't football</a>?</p>
 
+    <!-- ═══ Who does it most (original StatsBomb analysis) ═══ -->
+    <div class="reveal">
+      <p class="section-subtitle" style="margin-top: 3rem;">Original Analysis</p>
+      <h2 class="section-title">It Has a Leaderboard: Who Kills the Clock</h2>
+    </div>
+
+    <p class="reveal">"Is this even a real problem?" Fair question — so we measured it ourselves. We ran <a href="https://github.com/statsbomb/open-data" style="color:var(--accent)">StatsBomb's public event data</a> for <strong>492 international tournament matches</strong> (men's World Cups 2018 &amp; 2022, Euros 2020 &amp; 2024, Copa América 2024, AFCON 2023; Women's World Cups 2019 &amp; 2023, Women's Euros 2022 &amp; 2025) and timed every injury stoppage and every restart delay, attributed to the team that controlled it. If going down were random misfortune, the results would look like noise. They look like a strategy.</p>
+
+    <div class="stat-grid">
+      <div class="stat-card reveal reveal-delay-1">
+        <div class="stat-number" data-count="36">0</div>
+        <div class="stat-label">Injury stoppages per 100 matches started by the goalkeeper — double any outfield position, and identical in the men's (36.1) and women's (36.0) game</div>
+      </div>
+      <div class="stat-card reveal reveal-delay-2">
+        <div class="stat-number" data-count="12">0</div>
+        <div class="stat-label">Stoppages started by a single Wales goalkeeper across 7 matches. He played on after all 12.</div>
+      </div>
+      <div class="stat-card reveal reveal-delay-3">
+        <div class="stat-number" data-count="10.8" data-decimals="1" data-suffix=" min">0</div>
+        <div class="stat-label">Extra dead minutes per 90 Brazil generate when leading vs. trailing — the biggest mood swing among established men's nations</div>
+      </div>
+      <div class="stat-card reveal reveal-delay-4">
+        <div class="stat-number" data-count="25.2" data-decimals="1" data-suffix=" min">0</div>
+        <div class="stat-label">Of every 90 minutes spent leading that Morocco turn into dead time — the slowest established nation with a lead to protect</div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <h3 style="margin-top:2rem;">Dead minutes per 90 spent leading — nations with 10+ matches</h3>
+    </div>
+
+    <div class="chart-bar reveal" data-bar-width="100">
+      <div class="chart-bar-label"><span>Morocco 🇲🇦 — men</span><span>25.2</span></div>
+      <div class="chart-bar-track"><div class="chart-bar-fill red">25.2</div></div>
+    </div>
+    <div class="chart-bar reveal" data-bar-width="98">
+      <div class="chart-bar-label"><span>Italy 🇮🇹 — women</span><span>24.7</span></div>
+      <div class="chart-bar-track"><div class="chart-bar-fill red">24.7</div></div>
+    </div>
+    <div class="chart-bar reveal" data-bar-width="95">
+      <div class="chart-bar-label"><span>Nigeria 🇳🇬 — men</span><span>24.0</span></div>
+      <div class="chart-bar-track"><div class="chart-bar-fill red">24.0</div></div>
+    </div>
+    <div class="chart-bar reveal" data-bar-width="93">
+      <div class="chart-bar-label"><span>Argentina 🇦🇷 — men (world champions, 4th of 20)</span><span>23.4</span></div>
+      <div class="chart-bar-track"><div class="chart-bar-fill red">23.4</div></div>
+    </div>
+    <div class="chart-bar reveal" data-bar-width="92">
+      <div class="chart-bar-label"><span>Norway 🇳🇴 — women</span><span>23.2</span></div>
+      <div class="chart-bar-track"><div class="chart-bar-fill red">23.2</div></div>
+    </div>
+    <div class="chart-bar reveal" data-bar-width="79">
+      <div class="chart-bar-label"><span>France 🇫🇷 — men, cleanest big nation</span><span>19.9</span></div>
+      <div class="chart-bar-track"><div class="chart-bar-fill">19.9</div></div>
+    </div>
+    <div class="chart-bar reveal" data-bar-width="58">
+      <div class="chart-bar-label"><span>Japan 🇯🇵 — women, fastest team measured</span><span>14.5</span></div>
+      <div class="chart-bar-track"><div class="chart-bar-fill">14.5</div></div>
+    </div>
+
+    <p class="reveal" style="margin-top:1.5rem;">The killer detail isn't the ranking — it's the <strong>same team on opposite scorelines</strong>. Brazil are the fastest team in the entire dataset when they're losing (7.3 dead minutes per 90) and nearly triple that when they're winning (18.2). Switzerland slow down by <strong>+8.9 minutes</strong>, Morocco <strong>+8.8</strong>, Spain <strong>+8.2</strong>. Nothing about football physically changes when the scoreboard flips — only the incentive does. That's not congestion. That's a choice.</p>
+
+    <div class="highlight reveal">
+      <strong>And the flop has a job description.</strong> Normalized by starting-XI slots, goalkeepers start injury stoppages at <strong>double the rate</strong> of any outfield line — 36 per 100 matches against 13–20 everywhere else — and the number is eerily identical in the men's and women's game. The two most frequently "injured" players in the dataset are both Wales goalkeepers: 22 stoppages between them, and they stayed on the pitch for 21 of the 22. The keeper can't be subbed cheaply, can't be carded easily for lying down, and controls the restart. It's the perfect place to hide a timeout.
+    </div>
+
+    <p style="color: var(--muted); font-size: 0.9rem; margin-top: 0.5rem;" class="reveal">Source: original Stop the Flop analysis of <a href="https://github.com/statsbomb/open-data" style="color:var(--accent)">StatsBomb Open Data</a> (492 matches, 47,000+ restart delays, 2,033 injury stoppages; nations ranked only with 45+ minutes of leading exposure and 10+ matches). Charts free to reuse with credit: <a href="/charts/nations-major.png" style="color:var(--accent)">nations</a> · <a href="/charts/nations-slowdown-major.png" style="color:var(--accent)">the slowdown</a> · <a href="/charts/players.png" style="color:var(--accent)">players</a> · <a href="/charts/positions.png" style="color:var(--accent)">positions</a>. Data © StatsBomb.</p>
+
     <!-- ═══ FAQ ═══ -->
     <div class="reveal">
       <h3 style="margin-top:3rem;">Frequently Asked Questions</h3>
